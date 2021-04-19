@@ -1,38 +1,174 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    text-align: right;
+}
+
+* {
+    text-align: center;
+}
+
+.PageStyle {
+    text-align: right;
+    background-color: #1f2022;
+}
+
+.mainposttitle,
+.mainposttitlebig {
+    color: white;
+    text-align: center;
+}
+
+.competitionsList {
+    align-items: center;
+}
+
+.row {
+    
+}
+
+.Posts {
+    direction: rtl;
+}
+
+.competitionsList {
+    direction: rtl;
+}
+
+.mainpostdiv {
+    background-color: #242427;
+    margin: 20px;
+    height: 350px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    border-radius: 9px;
+    overflow: hidden
+}
+
+.titleposts {
+    margin-right: 70px;
+    color: darkcyan;
+    size: 12px;
+}
+
+.bigpostelment {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.Navigationlink {
+    color: blanchedalmond;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.Navigationlink:hover {
+    color: gray;
+}
+
+.PostImg img {
+    height: 250px;
+}
+
+.PostImg {
+    text-align: center;
+}
+
+.mr-auto,
+.mx-auto {
+    text-align: center;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #4a4a4a;
+}
+
+.BadgePost {
+    text-align-last: left;
+}
+
+.card {
+    border: 0px solid black;
+}
+
+.btnAllPosts {
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.ContactUsIMG {
+    text-align: center;
+}
+
+.ContactUsIMG img {
+    margin-top: 100px;
+    height: 80px;
+}
+.IsraelsNationalTeamPage{
+    text-align: right;
+    background-color: #1f2022;
+    color: white;
+}
+
+.AllPosts , .AllCompetitions{
+
+    text-align: right;
+    background-color: #1f2022;
+    color: white;
+
+}
+.table{
+    color: white;
+    width: 95%
+
+}
+
+.ToastClass{
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.ToastClass img{
+    width: 20px;
+    height: 20px;
 }
